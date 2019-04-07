@@ -30,7 +30,7 @@ function runPython(req, res, next){
 }
 
 function readTxt(req, res, next){
-    chars = fs.readFileSync(__dirname + '//resources//sample.txt').toString().split("\n");
+    chars = fs.readFileSync(__dirname + '//resources//answer.txt').toString().split("\n");
     console.log(chars);
     var dict = {};
     
@@ -93,7 +93,7 @@ function readTxtTeacher(req, res, next){
             if(chars[x].split(":")[1].trim() == "TBD"){
                 dict[name] = ['TBD', 'TBD', 'TBD']
             }
-            
+            console.log(classes);
             dict[name] = classes;
         }catch(err){}
     }
@@ -107,11 +107,11 @@ function readTxtTeacher(req, res, next){
 }
 
 
-app.get('/teachers', [runPython, readTxtTeacher], function (req, res){
+app.get('/teachers', [readTxtTeacher], function (req, res){
     feed_dict = {
         people : res.locals.dictionaryTeacher,
     }
-    res.render('HACKTJ', feed_dict);
+    res.render('teachers', feed_dict);
 })
 
 

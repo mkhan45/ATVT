@@ -9,7 +9,6 @@ classdic = {}
 perioddic = {}
 
 
-
 def makedics(filename):
     Scanner = open(filename, "r")
     for line1 in Scanner:
@@ -18,7 +17,7 @@ def makedics(filename):
         classes = len(data) // 2
         classlist = []
         for classnum in range(classes):
-            classlist.append((data[classnum * 2 + 1], data[classnum * classes + 2]))
+            classlist.append((data[classnum * 2 + 1], data[classnum * 2 + 2]))
         biglist.append((data[0], classlist))
         if data[1] in classdic:
             classdic[data[1]].append((data[0], data[2]))
@@ -121,7 +120,7 @@ def csp(list, dic, period, answer):
 
 makedics("teacher_info")
 temp = teacher_schedule(biglist)
-# pretty_print_teacher(temp)
+pretty_print_teacher(temp)
 # print(temp)
 period_dic(temp)
 thing = make_children_list("student_info")
@@ -136,10 +135,11 @@ for items in thing:
             steven += 1
     dic[items[0]] = mikail
 
+print(dic)
+for item in dic.keys():
+    print(item + "   ", dic[item])
 
-# print(dic)
-# for item in dic.keys():
-#     print(item + "   ", dic[item])
+
 def writefile(filename):
     Scanner = open(filename, "w")
     for item in dic.keys():
@@ -151,16 +151,28 @@ def writefile(filename):
             Scanner.write("\n")
             continue
         # print("classes",classes)
-        for clas in range(len(classes)-1):
+        for clas in range(len(classes) - 1):
             # print("clas",clas)
             Scanner.write(classes[clas][0])
             Scanner.write("/")
             Scanner.write(classes[clas][2])
             Scanner.write(",")
-        Scanner.write(classes[len(classes)-1][0])
+        Scanner.write(classes[len(classes) - 1][0])
         Scanner.write("/")
-        Scanner.write(classes[len(classes)-1][2])
+        Scanner.write(classes[len(classes) - 1][2])
         Scanner.write("\n")
 
 
-writefile("sample.txt")
+def writefile2(filename, list):
+    Scanner = open(filename, "w")
+    for teacher, schedule, classes in list:
+        Scanner.write(
+            teacher + ":" + classes[int(schedule[0])] + "," + classes[
+                int(schedule[1])] + "," + classes[int(schedule[2])] + "," + classes[int(schedule[3])] + "," + classes[
+                int(schedule[4])] + ","  + classes[int(schedule[5])] + "," + classes[
+                int(schedule[6])])
+        Scanner.write("\n")
+
+
+writefile("answer.txt")
+writefile2("teachers.txt", temp)

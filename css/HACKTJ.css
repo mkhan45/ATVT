@@ -8,10 +8,6 @@ body {
   vertical-align: text-bottom;
 }
 
-/*
- * Sidebar SOMEBODY ONCE TOLD ME THE WORLD WAS GONNA ROLL ME i AIN'T THE SHARPEST TOOL IN THE SHEEEEEEEEEEEEEEEEEEEEEEED
- */
-
 .sidebar {
   position: fixed;
   top: 0;
@@ -29,7 +25,6 @@ body {
   height: calc(100vh - 48px);
   padding-top: .5rem;
   overflow-x: hidden;
-  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
 }
 
 .sidebar .nav-link {
@@ -37,7 +32,7 @@ body {
   color: #333;
 }
 
-.sidebar .nav-link .feather {
+.sidebar .nav-link {
   margin-right: 4px;
   color: #999;
 }
@@ -46,8 +41,8 @@ body {
   color: #007bff;
 }
 
-.sidebar .nav-link:hover .feather,
-.sidebar .nav-link.active .feather {
+.sidebar .nav-link.hover:hover,
+.sidebar .nav-link.active {
   color: inherit;
 }
 

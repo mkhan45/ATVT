@@ -1,0 +1,12 @@
+Kushal:Kushal/Robo,Yash/CalcBC,Nitish/Neuro,Tuan/English11,Tony/Spanish3,Ethan/APPhysics,Nitish/DNA
+Aneesh:Kushal/Robo,Nitish/Neuro,Prateek/Tech,Steven/Bio,Ethan/EM,Roger/APUSH,Prerak/APMusicTheory
+Ian:Roger/APUSH,Nitish/Neuro,Ethan/APPhysics,Kushal/Proto,Andy/EnergySystems,Yash/CalcBC,Tony/APSpanishLit
+Alex:Roger/APUSH,Prateek/Tech,Nitish/Neuro,David/APChem,Prateek/Electronics,Nitish/DNA,Yash/CalcBC
+Justin:Yash/Math45,Prerak/APMusicTheory,Nitish/Neuro,Tuan/English11,Kushal/Proto,Prateek/Electronics,Steven/Bio
+Mikail:Yash/Math45,Kushal/Proto,Andy/EnergySystems,David/APChem,Ethan/EM,Vinay/AI,Steven/Bio
+Michael:John/WH2,Prerak/APMusicTheory,David/Chem,Tuan/English11,Prateek/Electronics,Roger/APUSH,Yash/CalcBC
+William:Nitish/Neuro,Kushal/Proto,Steven/Bio,Prerak/Drama,Roger/APGov,Prateek/Electronics,Yash/CalcBC
+Daniel:Kushal/Robo,John/WH2,Tuan/English10,Roger/APGov,Steven/APBio,Yash/CalcBC,Kushal/Proto
+Evan:John/WH2,Rohan/Foundations,Nitish/Neuro,Roger/APGov,Andy/EnergySystems,Andy/Physics,Tony/APSpanishLit
+Koushik:Steven/Bio,Prateek/Tech,Rohan/Foundations,Prerak/Drama,Tuan/English10,Nitish/DNA,John/AncientCiv
+Rahul:Kushal/Robo,Tony/Spanish3,Prerak/Drama,David/APChem,Vinay/CV,Andy/Physics,John/AncientCiv

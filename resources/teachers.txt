@@ -1,1 +1,15 @@
-Kushal:Ethan/APPhysics,Yash/CalcBC,Tony/Spanish3
+Tuan:English11,English11,English10,English11,English10,Break,Break
+Yash:Math45,CalcBC,CalcBC,Break,Break,CalcBC,CalcBC
+Prerak:Break,APMusicTheory,Drama,Drama,APMusicTheory,Break,APMusicTheory
+Roger:APUSH,Break,Break,APGov,APGov,APUSH,APUSH
+Steven:Bio,Break,Bio,Bio,APBio,Break,Bio
+David:Break,APChem,Chem,APChem,Chem,Chem,Break
+Nitish:Neuro,Neuro,Neuro,Break,Break,DNA,DNA
+Ethan:APPhysics,Break,APPhysics,EM,EM,APPhysics,Break
+Prateek:Break,Tech,Tech,Electronics,Electronics,Electronics,Break
+Kushal:Robo,Proto,Break,Proto,Proto,Break,Proto
+Rohan:APCS,Foundations,Foundations,Break,APCS,Break,APCS
+John:WH2,WH2,WH2,WH2,Break,Break,AncientCiv
+Vinay:Break,AI,CV,Break,CV,AI,AI
+Tony:Spanish3,Spanish3,Break,Spanish3,Spanish3,Break,APSpanishLit
+Andy:EnergySystems,Physics,EnergySystems,Break,EnergySystems,Physics,Break
