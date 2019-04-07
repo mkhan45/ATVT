@@ -1,0 +1,12 @@
+Kushal:Nitish/Neuro,Kushal/Robo,Yash/CalcBC,Nitish/DNA,Ethan/APPhysics,Roger/APUSH,Tuan/English11
+Aneesh:Prerak/APMusicTheory,Kushal/Robo,Ethan/EM,Steven/Bio,Roger/APUSH,Nitish/Neuro,Prateek/Tech
+Ian:Nitish/Neuro,Andy/EnergySystems,Yash/CalcBC,Roger/APUSH,Ethan/APPhysics,Tony/APSpanishLit,Kushal/Proto
+Alex:David/APChem,Nitish/DNA,Prateek/Electronics,Yash/CalcBC,Roger/APUSH,Nitish/Neuro,Prateek/Tech
+Justin:Yash/Math45,Steven/Bio,Prerak/APMusicTheory,Prateek/Electronics,Kushal/Proto,Nitish/Neuro,Tuan/English11
+Mikail:Yash/Math45,Steven/Bio,Ethan/EM,Tuan/English10,David/APChem,Kushal/Proto,Roger/APGov
+Michael:Prerak/APMusicTheory,John/WH2,David/Chem,Yash/CalcBC,Roger/APUSH,Prateek/Electronics,Tuan/English11
+William:Nitish/Neuro,Steven/Bio,Prateek/Electronics,Yash/CalcBC,Kushal/Proto,Prerak/Drama,Roger/APGov
+Daniel:TBD
+Evan:Rohan/Foundations,John/WH2,Nitish/Neuro,Andy/EnergySystems,Kushal/Proto,Tony/APSpanishLit,Roger/APGov
+Koushik:Yash/Math45,Tuan/English10,Steven/Bio,Nitish/DNA,Ethan/APPhysics,John/AncientCiv,Prateek/Tech
+Rahul:TBD
